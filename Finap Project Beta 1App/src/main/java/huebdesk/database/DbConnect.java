@@ -8,10 +8,10 @@ import java.sql.SQLException;
 
 public class DbConnect {
 	// Code database URL
-	static final String DB_URL = "jdbc:mysql://www.papademas.net:3307/tickets?autoReconnect=true&useSSL=false";
+	static final String DB_URL = "";
 	
 	// Database credentials
-	static final String USER = "fp411", PASS = "411";
+	static final String USER = "", PASS = "";
 
 	public Connection connect() throws SQLException {
 
