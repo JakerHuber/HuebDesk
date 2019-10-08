@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import com.gluonhq.charm.glisten.mvc.View?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
+
+<View fx:id="third" style="-fx-background-color: #e5e5e5;" stylesheets="@third.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gluonapplication.views.ThirdPresenter">
+   <center>
+      <VBox alignment="TOP_CENTER" style="-fx-background-color: #e5e5e5;" BorderPane.alignment="CENTER">
+         <children>
+            <ScrollPane fitToHeight="true" fitToWidth="true" VBox.vgrow="ALWAYS">
+               <content>
+                  <StackPane prefHeight="640.0" prefWidth="360.0" style="-fx-background-color: #e5e5e5;">
+                     <children>
+                        <GridPane hgap="16.0" maxHeight="-Infinity" maxWidth="540.0" prefHeight="640.0" style="-fx-background-color: white;" vgap="16.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="100.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="100.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints maxHeight="-Infinity" minHeight="32.0" prefHeight="32.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="-Infinity" minHeight="32.0" prefHeight="32.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="-Infinity" minHeight="32.0" prefHeight="32.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="-Infinity" minHeight="32.0" prefHeight="32.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="-Infinity" minHeight="32.0" prefHeight="32.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="-Infinity" minHeight="32.0" prefHeight="32.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="-Infinity" minHeight="32.0" prefHeight="32.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="-Infinity" minHeight="32.0" prefHeight="32.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="-Infinity" minHeight="32.0" prefHeight="32.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="-Infinity" minHeight="32.0" prefHeight="32.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="-Infinity" minHeight="32.0" prefHeight="32.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="-Infinity" minHeight="32.0" prefHeight="32.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <padding>
+                              <Insets bottom="32.0" left="32.0" right="32.0" top="32.0" />
+                           </padding>
+                           <children>
+                              <Label text="Create new ticket" GridPane.columnSpan="2">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="fullnameField" floatText="Full name" prefWidth="136.0" GridPane.columnSpan="2" GridPane.rowIndex="1" />
+                              <TextField fx:id="emailField" floatText="Email" GridPane.columnSpan="2" GridPane.rowIndex="2" />
+                              <TextField fx:id="subjectField" floatText="Subject" GridPane.columnSpan="2" GridPane.rowIndex="3" />
+                              <MenuButton fx:id="priorityMenuButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Priority" GridPane.rowIndex="4">
+                                 <items>
+                                    <MenuItem fx:id="lowPriority" mnemonicParsing="false" onAction="#lowPriorityClick" text="Low" />
+                                    <MenuItem fx:id="normalPriority" mnemonicParsing="false" onAction="#normalPriorityClick" text="Normal" />
+                                    <MenuItem fx:id="importantPriority" mnemonicParsing="false" onAction="#importantPriorityClick" text="Important" />
+                                    <MenuItem fx:id="criticalPriority" mnemonicParsing="false" onAction="#criticalPriorityClick" text="Critical" />
+                                 </items>
+                              </MenuButton>
+                              <MenuButton fx:id="categoryMenuButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Category" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                                <items>
+                                  <MenuItem fx:id="hardwareCategory" mnemonicParsing="false" onAction="#hardwareCategoryClick" text="Hardware" />
+                                  <MenuItem fx:id="softwareCategory" mnemonicParsing="false" onAction="#softwareCategoryClick" text="Software" />
+                                    <MenuItem fx:id="serverCategory" mnemonicParsing="false" onAction="#serverCategoryClick" text="Server" />
+                                    <MenuItem fx:id="networkingCategory" mnemonicParsing="false" onAction="#networkingCategoryClick" text="Networking" />
+                                    <MenuItem fx:id="newemployeeCategory" mnemonicParsing="false" onAction="#newemployeeCategoryClick" text="New Employee" />
+                                    <MenuItem fx:id="websiteCategory" mnemonicParsing="false" onAction="#websiteCategoryClick" text="Website" />
+                                    <MenuItem fx:id="changeCategory" mnemonicParsing="false" onAction="#changeCategoryClick" text="Change Request" />
+                                </items>
+                              </MenuButton>
+                              
+                              <TextArea fx:id="descriptionTextArea" prefHeight="200.0" prefWidth="200.0" promptText="Description" wrapText="true" GridPane.columnSpan="2" GridPane.rowIndex="5" GridPane.rowSpan="5" />
+                              
+                              <HBox alignment="TOP_RIGHT" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="10">
+                                 <children>
+                                    <Button fx:id="submitButton" mnemonicParsing="false" onAction="#submitButtonClick" prefWidth="136.0" text="Submit" textOverrun="CLIP" />
+                                 </children>
+                              </HBox>
+                              <TextFlow GridPane.columnSpan="2" GridPane.rowIndex="11">
+                                 <children>
+                                    <Label fx:id="errorLabel" textFill="RED" textOverrun="CLIP" wrapText="true" />
+                                 </children>
+                              </TextFlow>
+                           </children>
+                           <StackPane.margin>
+                              <Insets />
+                           </StackPane.margin>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </GridPane>
+                     </children>
+                  </StackPane>
+               </content>
+            </ScrollPane>
+         </children>
+      </VBox>
+   </center>
+</View>

@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.gluonapplication.views.ThirdView" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/com/gluonapplication/views/ThirdView.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="125" x="4813" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.gluonapplication.views.FourthAdminView" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/com/gluonapplication/views/FourthAdminView.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="128" x="2045" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.gluonapplication.views.FifthView" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/com/gluonapplication/views/FifthView.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="125" x="4978" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.gluonapplication.views.PrimaryPresenter" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/com/gluonapplication/views/PrimaryPresenter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="240" width="139" x="1107" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.gluonapplication.views.FifthAdminPresenter" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/com/gluonapplication/views/FifthAdminPresenter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="204" width="195" x="2388" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="huebdesk.items.Tickets" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/huebdesk/items/Tickets.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="744" width="428" x="3557" y="1677"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="huebdesk.items.Admins" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/huebdesk/items/Admins.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="582" width="380" x="4347" y="1677"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.gluonapplication.views.SecondaryAdminPresenter" 
+    project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/com/gluonapplication/views/SecondaryAdminPresenter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="150" width="225" x="1780" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.gluonapplication.views.SixthAdminView" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/com/gluonapplication/views/SixthAdminView.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="125" x="777" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.gluonapplication.views.ThirdAdminPresenter" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/com/gluonapplication/views/ThirdAdminPresenter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="492" width="176" x="3000" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="11" language="java" name="huebdesk.items" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/huebdesk/items" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="46" width="115" x="432" y="37"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="12" language="java" name="com.gluonapplication.views.FifthAdminView" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/com/gluonapplication/views/FifthAdminView.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="125" x="942" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="huebdesk.items.Users" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/huebdesk/items/Users.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="258" width="259" x="4767" y="1677"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.gluonapplication.views.SixthAdminPresenter" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/com/gluonapplication/views/SixthAdminPresenter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="150" width="249" x="1286" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.gluonapplication.views.ThirdAdminView" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/com/gluonapplication/views/ThirdAdminView.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="125" x="3381" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.gluonapplication.views.FourthPresenter" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/com/gluonapplication/views/FourthPresenter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="456" width="165" x="1575" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.gluonapplication.views.PrimaryAdminView" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/com/gluonapplication/views/PrimaryAdminView.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="133" x="2623" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="18" language="java" name="huebdesk.database" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/huebdesk/database" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="46" width="135" x="2213" y="37"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="19" language="java" name="huebdesk.database.DaoLogin" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/huebdesk/database/DaoLogin.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="348" width="233" x="5199" y="911"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.gluonapplication.views.FifthPresenter" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/com/gluonapplication/views/FifthPresenter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="204" width="195" x="4413" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.gluonapplication.views.SecondaryView" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/com/gluonapplication/views/SecondaryView.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="125" x="4648" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="com.gluonapplication.views.SecondaryAdminView" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/com/gluonapplication/views/SecondaryAdminView.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="150" x="587" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.gluonapplication.views.LoginView" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/com/gluonapplication/views/LoginView.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="125" x="3216" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="huebdesk.items.Employees" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/huebdesk/items/Employees.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="726" width="474" x="4685" y="911"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="com.gluonapplication.views.PrimaryView" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/com/gluonapplication/views/PrimaryView.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="125" x="41" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="com.gluonapplication.DrawerManager" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/com/gluonapplication/DrawerManager.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="192" x="4016" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="27" language="java" name="com.gluonapplication.views" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/com/gluonapplication/views" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="46" width="186" x="206" y="37"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="28" language="java" name="com.gluonapplication.views.FourthAdminPresenter" 
+    project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/com/gluonapplication/views/FourthAdminPresenter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="456" width="165" x="3546" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="com.gluonapplication.views.ThirdPresenter" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/com/gluonapplication/views/ThirdPresenter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="834" width="196" x="5143" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="com.gluonapplication.GluonApplication" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/com/gluonapplication/GluonApplication.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="348" width="196" x="4025" y="911"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="com.gluonapplication.views.PrimaryAdminPresenter" 
+    project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/com/gluonapplication/views/PrimaryAdminPresenter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="294" width="164" x="2796" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="com.gluonapplication.views.SecondaryPresenter" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/com/gluonapplication/views/SecondaryPresenter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="150" width="225" x="3751" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="com.gluonapplication.views.FourthView" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/com/gluonapplication/views/FourthView.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="125" x="4248" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="com.gluonapplication.views.LoginPresenter" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/com/gluonapplication/views/LoginPresenter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="384" width="218" x="5379" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="huebdesk.items.Notes" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/huebdesk/items/Notes.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="474" width="282" x="4025" y="1677"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="huebdesk.database.DbConnect" project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/huebdesk/database/DbConnect.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="150" width="126" x="5066" y="1677"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="com.gluonapplication.views.LoginPresenter.Cooldown" 
+    project="Finap Project Beta 1App" 
+    file="/Finap Project Beta 1App/src/main/java/com/gluonapplication/views/LoginPresenter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="125" x="5472" y="911"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="38">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="39" name="currentAdmin"/>      
+      <multiplicity id="40" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="41">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="42" name="db"/>      
+      <multiplicity id="43" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="44">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="45" name="currentUserTicket"/>      
+      <multiplicity id="46" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="47">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="37"/>  
+  </nesting>  
+  <generalization id="48">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="24"/>  
+  </generalization>  
+  <association id="49">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="50" name="currentAdminTicket"/>      
+      <multiplicity id="51" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="52">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="53" name="currentUserNote"/>      
+      <multiplicity id="54" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="55">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="56" name="conn"/>      
+      <multiplicity id="57" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="58">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="24"/>  
+  </generalization>  
+  <association id="59">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="60" name="currentAdminNote"/>      
+      <multiplicity id="61" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="62">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="63" name="currentUser"/>      
+      <multiplicity id="64" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="65">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="66" name="conn"/>      
+      <multiplicity id="67" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

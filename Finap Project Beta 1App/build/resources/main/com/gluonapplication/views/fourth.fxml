@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.Icon?>
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import com.gluonhq.charm.glisten.mvc.View?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<View fx:id="fourth" style="-fx-background-color: #e5e5e5;" stylesheets="@fourth.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gluonapplication.views.FourthPresenter">
+   <center>
+      <VBox alignment="TOP_CENTER" style="-fx-background-color: #e5e5e5;" BorderPane.alignment="CENTER">
+         <children>
+            <ScrollPane fitToHeight="true" fitToWidth="true" VBox.vgrow="ALWAYS">
+               <content>
+                  <StackPane prefHeight="660.0" prefWidth="360.0" style="-fx-background-color: #e5e5e5;">
+                     <children>
+                        <VBox alignment="TOP_CENTER" maxWidth="960.0" style="-fx-background-color: white;">
+                           <StackPane.margin>
+                              <Insets />
+                           </StackPane.margin>
+                           <children>
+                              <GridPane hgap="16.0" style="-fx-background-color: white;" vgap="16.0">
+                                <columnConstraints>
+                                  <ColumnConstraints percentWidth="50.0" />
+                                  <ColumnConstraints percentWidth="50.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                  <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="32.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="32.0" vgrow="SOMETIMES" />
+                                  <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="32.0" vgrow="SOMETIMES" />
+                                  <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="32.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="32.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="32.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="32.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="32.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="32.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="32.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="32.0" />
+                                    <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="32.0" vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <children>
+                                    <Label fx:id="titleLabel" text="Ticket #" GridPane.columnSpan="2">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="fullnameField" disable="true" floatText="Full name" text=" " GridPane.columnSpan="2" GridPane.rowIndex="2" />
+                                    <TextField fx:id="emailField" disable="true" floatText="Email" text=" " GridPane.columnSpan="2" GridPane.rowIndex="3" />
+                                    <TextField fx:id="subjectField" disable="true" floatText="Subject" text=" " GridPane.columnSpan="2" GridPane.rowIndex="4" />
+                                    
+                                    <TextArea fx:id="descriptionTextArea" disable="true" wrapText="true" GridPane.columnSpan="2" GridPane.rowIndex="6" GridPane.rowSpan="3" />
+                                    <TextField fx:id="categoryField" disable="true" floatText="Category" text=" " GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                    <TextField fx:id="statusField" disable="true" floatText="Status" text=" " GridPane.rowIndex="1" />
+                                    <TextField fx:id="createddateField" disable="true" floatText="Date created" text=" " GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                    <TextField fx:id="priorityField" disable="true" floatText="Priority" text=" " GridPane.rowIndex="5" />
+                                    <HBox alignment="TOP_RIGHT" minHeight="32.0" GridPane.columnIndex="1" GridPane.rowIndex="9">
+                                       <children>
+                                          <Button fx:id="closeTicketButton" alignment="TOP_LEFT" mnemonicParsing="false" onAction="#closeTicketButtonClick" prefWidth="116.0" style="-fx-background-color: gray;" text="Close ticket" textOverrun="CLIP" />
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="TOP_RIGHT" minHeight="32.0" GridPane.columnIndex="1" GridPane.rowIndex="10" GridPane.rowSpan="2">
+                                       <children>
+                                          <Button fx:id="viewNotesButton" contentDisplay="TOP" mnemonicParsing="false" onAction="#viewNotesButtonClick" prefWidth="116.0" text="View messages" textOverrun="CLIP">
+                                             <graphic>
+                                                <Icon content="QUESTION_ANSWER" scaleX="1.75" scaleY="1.75">
+                                                   <opaqueInsets>
+                                                      <Insets />
+                                                   </opaqueInsets>
+                                                   <padding>
+                                                      <Insets left="6.0" top="16.0" />
+                                                   </padding>
+                                                </Icon>
+                                             </graphic>
+                                          </Button>
+                                       </children>
+                                    </HBox>
+                                    <Label fx:id="errorLabel" alignment="TOP_LEFT" textFill="RED" wrapText="true" GridPane.rowIndex="9" GridPane.rowSpan="2" />
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="32.0" left="32.0" right="32.0" top="32.0" />
+                                 </padding>
+                              </GridPane>
+                           </children>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </VBox>
+                     </children>
+                  </StackPane>
+               </content>
+            </ScrollPane>
+         </children>
+      </VBox>
+   </center>
+</View>

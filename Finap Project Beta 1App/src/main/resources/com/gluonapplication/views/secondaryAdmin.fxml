@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.CharmListView?>
+<?import com.gluonhq.charm.glisten.mvc.View?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<View fx:id="secondaryAdmin" stylesheets="@secondaryAdmin.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gluonapplication.views.SecondaryAdminPresenter">
+   <center>
+      <VBox alignment="TOP_CENTER" style="-fx-background-color: #e5e5e5;" BorderPane.alignment="CENTER">
+         <children>
+            <ScrollPane fitToHeight="true" fitToWidth="true" VBox.vgrow="ALWAYS">
+               <content>
+                  <StackPane prefHeight="640.0" prefWidth="360.0" style="-fx-background-color: #e5e5e5;">
+                     <children>
+                        <VBox maxWidth="960.0" prefWidth="360.0" style="-fx-background-color: #ffffff;">
+                           <StackPane.margin>
+                              <Insets />
+                           </StackPane.margin>
+                           <children>
+                              <Label text="View tickets">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="32.0" left="32.0" right="32.0" top="32.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <CharmListView fx:id="charmlist1" maxHeight="1.7976931348623157E308" VBox.vgrow="ALWAYS" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </StackPane>
+               </content>
+            </ScrollPane>
+         </children>
+      </VBox>
+   </center>
+</View>

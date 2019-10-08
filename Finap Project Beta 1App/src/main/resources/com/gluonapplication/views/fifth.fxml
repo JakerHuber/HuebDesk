@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.CardPane?>
+<?import com.gluonhq.charm.glisten.mvc.View?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<View fx:id="fifth" style="-fx-background-color: #e5e5e5;" stylesheets="@fifth.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gluonapplication.views.FifthPresenter">
+   <center>
+      <VBox alignment="TOP_CENTER" style="-fx-background-color: #e5e5e5;" BorderPane.alignment="CENTER">
+         <children>
+            <ScrollPane fitToHeight="true" fitToWidth="true" VBox.vgrow="ALWAYS">
+               <content>
+                  <StackPane prefHeight="660.0" prefWidth="360.0" style="-fx-background-color: #e5e5e5;">
+                     <children>
+                        <VBox alignment="TOP_CENTER" maxWidth="960.0" style="-fx-background-color: white;">
+                           <StackPane.margin>
+                              <Insets />
+                           </StackPane.margin>
+                           <children>
+                              <CardPane fx:id="cardPane1" minHeight="-Infinity" VBox.vgrow="ALWAYS">
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                              </CardPane>
+                           </children>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </VBox>
+                     </children>
+                  </StackPane>
+               </content>
+            </ScrollPane>
+         </children>
+      </VBox>
+   </center>
+</View>
