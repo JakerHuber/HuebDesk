@@ -8,10 +8,10 @@ import java.sql.SQLException;
 
 public class DbConnect {
 	// Code database URL
-	static final String DB_URL = "";
+	static final String DB_URL = "website";
 	
 	// Database credentials
-	static final String USER = "", PASS = "";
+	static final String USER = "username", PASS = "password";
 
 	public Connection connect() throws SQLException {
 
